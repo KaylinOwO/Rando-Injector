@@ -2,22 +2,18 @@
 #include <Windows.h>
 #include <TlHelp32.h>
 
-// Change "MY_DLL_NAME.dll" to your dll name
-#define DLL_NAME "MY_DLL_NAME.dll"
+#define DLL_NAME "inject.dll"
 
-// And you need:
-// 1. change all bytes(0x00, 0x01, 0x03....) in define "JUNKS" to random bytes
-// 2. change size this block by add new bytes
 #define JUNKS \
-__asm _emit 0x00 \
-__asm _emit 0x01 \
-__asm _emit 0x03 \
-__asm _emit 0x04 \
-__asm _emit 0x05 \
-__asm _emit 0x06 \
-__asm _emit 0x07 \
-__asm _emit 0x08 \
-__asm _emit 0x09 \
+__asm _emit 0xd6 \
+__asm _emit 0xfd \
+__asm _emit 0x6a \
+__asm _emit 0x87 \
+__asm _emit 0xe5 \
+__asm _emit 0xb4 \
+__asm _emit 0x38 \
+__asm _emit 0x1b \
+__asm _emit 0xf5 \
 
 
 // Don't change this!
