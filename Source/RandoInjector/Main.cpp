@@ -26,26 +26,6 @@ __asm _emit 0xc6 \
 __asm _emit 0x40 \
 __asm _emit 0xe5 \
 __asm _emit 0xd6 \
-__asm _emit 0xfz \
-__asm _emit 0x6t \
-__asm _emit 0x84 \
-__asm _emit 0xed \
-__asm _emit 0xba \
-__asm _emit 0x37 \
-__asm _emit 0x1k \
-__asm _emit 0xbi \
-__asm _emit 0x93 \
-__asm _emit 0x7a \
-__asm _emit 0xa3 \
-__asm _emit 0x4h \
-__asm _emit 0x8c \
-__asm _emit 0xf4 \
-__asm _emit 0x2s \
-__asm _emit 0x5d \
-__asm _emit 0xc6 \
-__asm _emit 0xa6 \
-__asm _emit 0xj5 \
-
 
 // Don't change this!
 #define _JUNK_BLOCK(s) __asm jmp s JUNKS __asm s:
