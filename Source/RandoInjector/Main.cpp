@@ -70,7 +70,7 @@ int main()
 	GetFullPathName(DLL_NAME, MAX_PATH, myDLL, 0);
 	
 	_JUNK_BLOCK(jmp_label4)
-	dwProcess = Process("csgo.exe");
+	dwProcess = Process("hl2.exe");
 	
 	_JUNK_BLOCK(jmp_label15)
 	HANDLE hProcess = OpenProcess(PROCESS_CREATE_THREAD | PROCESS_QUERY_INFORMATION | PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION, FALSE, dwProcess);
