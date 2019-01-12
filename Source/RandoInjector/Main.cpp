@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <TlHelp32.h>
 
-#define DLL_NAME "inject.dll"
+#define DLL_NAME "NaCl.dll"
 
 #define JUNKS \
 __asm _emit 0xd6 \
